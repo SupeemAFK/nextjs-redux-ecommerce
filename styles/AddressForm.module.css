@@ -1,0 +1,29 @@
+.formContainer {
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+  max-width: 50rem;
+  padding: 3rem 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer {
+  margin-top: 1rem;
+}
+
+.input {
+  width: 100%;
+  height: 2rem;
+  margin-top: 0.5rem;
+}
+
+.input:focus {
+  outline: none;
+  border: 1.5px solid #3b82f6;
+}
